@@ -33,6 +33,25 @@ p {line-height: 2}
 .w3-new,.w3-hover-new:hover{color:#000!important;background-color:#B3BED9!important}
 .w3-new-pink,.w3-hover-new-pink:hover{color:#000!important;background-color:#F0CFD2!important}
 
+/* Table styles */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  align-self: center;
+}
+
+td, th {
+  /*border: 1px solid #000;*/
+  text-align: center;
+  padding: 5px;
+}
+
+.top {
+  border-width: 2px;
+  border-bottom-style: solid;
+}
+
 </style>
 </head>
 <body>
@@ -52,7 +71,7 @@ p {line-height: 2}
     <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
     <a href="#us" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
     <a href="#Itinerary" style="width:25%" class="w3-bar-item w3-button">Itinerary</a>
-    <a href="#eras" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+    <a href="#eras" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Eras</a>
   </div>
 </div>
 
@@ -77,6 +96,7 @@ p {line-height: 2}
 <div class="w3-container w3-padding-64 w3-new  w3-center" id="Itinerary">
   <div class="w3-content">
     <h1 class="w3-text-black"><b>Itinerary</b></h1>
+    <h2 class="w3-half"><b></b>Feel free to arrive anytime Thursday night or Friday morning!</b></h2>
     <!-- <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0"> -->
     <div class="w3-row">
       <div class="w3-half">
@@ -92,41 +112,46 @@ p {line-height: 2}
         <p>More information coming soon!</p>
       </div>
     </div>
+    <h1 class="w3-text-black"><b>Air Bnb</b></h1>
+
   </div>
 </div>
 
 <!-- Eras section -->
 <div class="w3-container w3-padding-64 w3-new-pink w3-center w3-wide" id="eras">
   <h1><b>Here are the different eras we encourage everyone to dress in!</b></h1>
-  <h1><b>Hope you can make it!</b></h1>
+  </b></h1>
   <table>
     <tr>
-      <th>Fearless</th>
-      <th>Red</th> 
-      <th>Reputation</th>
-      <th>Midnights</th>
+      <th>Fearless <div class="top"></div></th>
+      <th>Red <div class="top"></div></th> 
+      <th>Reputation <div class="top"></div></th>
+      <th> Midnights <div class="top"></div></th>
     </tr>
     <tr>
       <td>Lindsey</td>
-      <td>Melissa</td> 
-      <td>Micaela</td>
-      <td>Teresa</td>
-    </tr>
-    <tr>
       <td>Sydney</td>
-      <td>Meghan</td> 
-      <td>Caroline</td>
-    </tr>
-    <tr>
       <td>Erika</td>
-      <td>Ryan</td> 
-      <td>Paulina</td>
-      <td>Abby</td>
+      <td>Meredith</td>
     </tr>
     <tr>
-      <td>Meredith</td>
-      <td>Miranda</td> 
+      <td>Melissa</td> 
+      <td>Meghan</td> 
+      <td>Ryan</td> 
+      <td>Miranda</td>
+      
+    </tr>
+    <tr>
+      <td>Micaela</td>
+      <td>Caroline</td>
+      <td>Paulina</td>
       <td>Kaylin</td>
+    </tr>
+    <tr>
+      <td>Teresa</div></td>
+      <td></td>
+      <td>Abby</td> 
+      
     </tr>
   </table>
   <p class="w3-large">Need some outfit inspiration? Here is a slideshow with some ideas!</p>
